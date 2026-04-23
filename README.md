@@ -4,9 +4,9 @@ Script untuk mengecek kesiapan root filesystem (rootfs) sebelum menjalankan `RMx
 
 ---
 
-## 🚀 Cara Pakai (via /tmp)
+## Cara Pakai (via /tmp)
 
-### 🔽 wget
+### wget
 ```sh
 cd /tmp
 wget https://raw.githubusercontent.com/zainalicious/cek_rootfs.sh/main/cek_rootfs.sh
@@ -14,7 +14,7 @@ chmod +x cek_rootfs.sh
 ./cek_rootfs.sh
 ```
 
-### 🔽 curl
+### curl
 ```sh
 cd /tmp
 curl -O https://raw.githubusercontent.com/zainalicious/cek_rootfs.sh/main/cek_rootfs.sh
@@ -24,7 +24,7 @@ chmod +x cek_rootfs.sh
 
 ---
 
-## ⚡ One-liner
+## Perintah 1 Baris
 ```sh
 cd /tmp && wget -qO- https://raw.githubusercontent.com/zainalicious/cek_rootfs.sh/main/cek_rootfs.sh | sh
 ```
